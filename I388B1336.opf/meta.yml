@@ -1,28 +1,50 @@
 id: I388B1336
+legacy_id: P007127
+ocr_import_info:
+  bdrc_scan_id: W1CZ1143
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-31T21:29:23'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-31T21:29:40+00:00'
-last_modified: '2022-06-09T06:16:10.254172+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-08-30T18:56:58.079457+00:00'
+last_modified: 2022-08-31 02:57:07.026365
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W1CZ1143
-  title: ལམ་འབྲས་གདམས་ངག་ཟབ་མོ་བྱུང་ཚུལ་གྱི་ཡི་གེ་དོན་གཉེར་དགའ་བ་བསྐྱེད་བྱེད
-  author: ''
+  id: http://purl.bdrc.io/resource/W1CZ1143
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: false
-  base:
-    347C:
-      image_group_id: I1CZ1546
-      title: Volume 1 of lam 'bras gdams ngag zab mo byung tshul gyi yi ge don gnyer
-        dga' ba bskyed byed
+  reproduction_of: http://purl.bdrc.io/resource/MW1CZ1143
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: ལམ་འབྲས་གདམས་ངག་ཟབ་མོ་བྱུང་ཚུལ་གྱི་ཡི་གེ་དོན་གཉེར་དགའ་བ་བསྐྱེད་བྱེད།
+  author: འཇམ་མགོན་ཨ་མེས་ཞབས།
+statistics:
+  ocr_word_mean_confidence_index: 0.4955257271385233
+  ocr_word_median_confidence_index: 0.44999998807907104
+quality: null
+bases:
+  I1CZ1546:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1CZ1546
       total_pages: 36
-      order: 1
-      base_file: 347C.txt
-statistics: {}
-quality: {}
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I1CZ1546.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.44999998807907104
+      ocr_word_mean_confidence_index: 0.4955257271385233
+    legacy_id: v001
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
